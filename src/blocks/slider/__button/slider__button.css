@@ -1,0 +1,36 @@
+.slider__button {
+  left: 0;
+  position: absolute;
+  top: calc(50% - 33px);
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow 0.3s ease;
+          transition: -webkit-box-shadow 0.3s ease;
+          transition:         box-shadow 0.3s ease;
+          transition:         box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
+}
+
+.slider__button:hover,
+.slider__button:active {
+  outline: none;
+  -webkit-box-shadow: 0 0 18px 1px rgba(108, 99, 255, 0.2);
+          box-shadow: 0 0 18px 1px rgba(108, 99, 255, 0.2);
+}
+.slider__button:last-child {
+  left: auto;
+  right: 0;
+}

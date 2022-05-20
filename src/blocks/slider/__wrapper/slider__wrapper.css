@@ -1,0 +1,21 @@
+.slider__wrapper {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  min-height: 322px;
+  padding-top: 24px;
+  padding-right: 20px;
+  padding-bottom: 24px;
+  padding-left: 20px;
+  overflow: hidden;
+  background-color: #fafafa; 
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-right: 0;
+  padding-left: 0;
+}

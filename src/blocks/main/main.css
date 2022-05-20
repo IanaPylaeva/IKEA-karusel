@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+}

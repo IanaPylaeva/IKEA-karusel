@@ -1,0 +1,19 @@
+.product__sale-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  padding-top: 8px;
+  padding-right: 22px;
+  padding-bottom: 9px;
+  padding-left: 19px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  color: #ffffff;
+  background-color: #f55f44;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 95% 82%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 95% 82%, 0 100%);
+}

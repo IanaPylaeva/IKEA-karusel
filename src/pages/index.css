@@ -1,0 +1,50 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+/*блок banner*/
+@import url(../blocks/banner/__description/banner__description.css);
+@import url(../blocks/banner/__heading/banner__heading.css);
+@import url(../blocks/banner/__image/banner__image.css);
+@import url(../blocks/banner/__text/banner__text.css);
+@import url(../blocks/banner/banner.css);
+
+/*блок goods*/
+@import url(../blocks/goods/__heading/goods__heading.css);
+@import url(../blocks/goods/__item/goods__item.css);
+@import url(../blocks/goods/__list/goods__list.css);
+@import url(../blocks/goods/__slider/goods__slider.css);
+@import url(../blocks/goods/goods.css);
+
+/*блок header*/
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/header.css);
+
+/*блок main*/
+@import url(../blocks/main/main.css);
+
+/*блок page*/
+@import url(../blocks/page/page.css);
+
+/*блок product*/
+@import url(../blocks/product/__description/product__description.css);
+@import url(../blocks/product/__heading/product__heading.css);
+@import url(../blocks/product/__image/product__image.css);
+@import url(../blocks/product/__price-value/product__price-value.css);
+@import url(../blocks/product/__price-value/_old/product__price-value_old.css);
+@import url(../blocks/product/__price-value/_sale/product__price-value_sale.css);
+@import url(../blocks/product/__price/product__price.css);
+@import url(../blocks/product/__sale-amount/product__sale-amount.css);
+@import url(../blocks/product/__sale-label/product__sale-label.css);
+@import url(../blocks/product/product.css);
+
+/*блок rouble*/
+@import url(../blocks/rouble/rouble.css);
+
+/*блок slider*/
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__controls/slider__controls.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__wrapper/slider__wrapper.css);
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/_in-move/slider_in-move.css);

@@ -1,0 +1,16 @@
+.product__image {
+  max-width: 100%;
+  min-height: 248px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  border-radius: 2px;
+  -webkit-transition: border-radius 0.3s ease;
+  transition: border-radius 0.3s ease;
+  background-color: #999999;
+  -o-object-fit: cover;
+  object-fit: cover;     
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}

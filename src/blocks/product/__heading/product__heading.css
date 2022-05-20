@@ -1,0 +1,9 @@
+.product__heading {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+  margin: 0 0 30px 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.143;
+}

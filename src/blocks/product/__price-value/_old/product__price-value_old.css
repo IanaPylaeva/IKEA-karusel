@@ -1,0 +1,9 @@
+.product__price-value_old {
+  margin-left: 6px;
+  padding-top: 2px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #ababab;
+  text-decoration: line-through;
+}

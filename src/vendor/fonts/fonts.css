@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./muller-regular.woff2") format("woff2"),
+    url("./muller-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./muller-medium.woff2") format("woff2"),
+    url("./muller-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./muller-bold.woff2") format("woff2"),
+    url("./muller-bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Rouble";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./rouble.woff2") format("woff2"),
+  url("./rouble.woff") format("woff");
+}
