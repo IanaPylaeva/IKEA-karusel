@@ -7,3 +7,15 @@
   line-height: 1.5;
   color: #000000;
 }
+
+@media screen and (max-width: 1200px) {
+  .banner__text {
+    margin: 22px 20px 0 auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .banner__text {
+    margin: 22px auto 0;
+    width: 90%;
+  }
+}

@@ -9,3 +9,14 @@
   line-height: 1.166;
   color: #000000;
 }
+
+@media screen and (max-width: 900px) {
+  .goods__heading {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .goods__heading {
+    font-size: 28px;
+  }
+}

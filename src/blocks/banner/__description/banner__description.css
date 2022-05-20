@@ -5,3 +5,9 @@
   color: #999999;
   text-align: justify;
 }
+
+@media screen and (max-width: 900px) {
+  .banner__description {
+    width: 100%;
+  }
+}

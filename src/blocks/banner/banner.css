@@ -1,8 +1,14 @@
 .banner {
-  width: 75%;
+  width: 80%;
   max-width: 1300px;
   margin: 17px auto 0;
   padding: 0;
   background-color: #fafafa;
   display: flex;
+}
+
+@media screen and (max-width: 900px) {
+  .banner {
+    flex-direction: column;
+  }
 }
